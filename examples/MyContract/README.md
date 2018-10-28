@@ -179,6 +179,14 @@ npm --registry https://registry.npm.taobao.org install
 需要说明的是，有时候使用国内镜像下载下来的包并不能完全正常使用，
 而不使用又不能成功下载。这是个问题，而且很难查明原因。
 
+#### 1.5.2.3 truffle compile
+执行下列命令编译智能合约。
+```
+truffle compile
+```
+
+命令 truffle compile 将编译智能合约，并在子目录 build/contracts 中存入智能合约编译后的同名 .json 文件。如果子目录 build/contracts 不存在，则构建。
+
 ### 1.5.3 编写 nodejs 脚本
 新建子目录 scripts 用于存放 nodejs 脚本。新建 scripts/deploy.js 用于将
 智能合约部署到网络中。
