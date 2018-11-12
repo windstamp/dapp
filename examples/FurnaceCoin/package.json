@@ -1,0 +1,24 @@
+{
+  "name": "furnacecoin",
+  "version": "1.0.0",
+  "description": "Furnace Coin",
+  "main": "app.js",
+  "directories": {
+    "test": "test"
+  },
+  "devDependencies": {
+    "bignumber.js": "^8.0.1",
+    "truffle": "^4.0.4",
+    "truffle-contract": "^3.0.1",
+    "web3": "^0.20.6",
+    "zeppelin-solidity": "^1.5.0"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Furnace",
+  "license": "ISC",
+  "dependencies": {
+    "sleep": "^5.2.3"
+  }
+}
