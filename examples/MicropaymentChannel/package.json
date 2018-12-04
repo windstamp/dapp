@@ -1,0 +1,21 @@
+{
+  "name": "Auction",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "ethereumjs-abi": "^0.6.5",
+    "sleep": "^5.2.3",
+    "truffle": "^4.0.4",
+    "truffle-contract": "^3.0.1",
+    "web3": "^0.20.6"
+  }
+}
